@@ -218,7 +218,7 @@ function App() {
                         rel="noopener noreferrer"
                         target="_blank"
                         href="https://amigoscode.com/p/full-stack-spring-boot-react">
-                        Click here to access Fullstack Spring Boot & React for professionals
+                        Click here to access Fullstack Spring Boot & React for professional
                     </a>
                 </Divider>
             </Footer>
