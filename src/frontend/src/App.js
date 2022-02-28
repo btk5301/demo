@@ -19,6 +19,7 @@ import Avatar from "antd/es/avatar";
 import Popconfirm from "antd/es/popconfirm";
 import {errorNotification, successNotification} from "./Notification";
 import Divider from "antd/es/divider";
+import Image from "antd/es/image";
 
 const {Header, Content, Footer, Sider} = Layout;
 const {SubMenu} = Menu;
