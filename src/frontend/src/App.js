@@ -18,6 +18,8 @@ import Tag from "antd/es/tag";
 import Avatar from "antd/es/avatar";
 import Popconfirm from "antd/es/popconfirm";
 import {errorNotification, successNotification} from "./Notification";
+import Divider from "antd/es/divider";
+import Image from "antd/es/image";
 
 const {Header, Content, Footer, Sider} = Layout;
 const {SubMenu} = Menu;
@@ -206,7 +208,20 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Brian</Footer>
+            <Footer style={{textAlign: 'center'}}>
+                <Image
+                    width={75}
+                    src="https://user-images.githubusercontent.com/40702606/110871298-0ab98d00-82c6-11eb-88e8-20c4d5c9ded5.png"
+                />
+                <Divider>
+                    <a
+                        rel="noopener noreferrer"
+                        target="_blank"
+                        href="https://amigoscode.com/p/full-stack-spring-boot-react">
+                        Click here to access Fullstack Spring Boot & React for professionals
+                    </a>
+                </Divider>
+            </Footer>
         </Layout>
     </Layout>
 }
